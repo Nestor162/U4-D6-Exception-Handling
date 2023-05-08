@@ -17,6 +17,8 @@ public class Exercise2 {
 			System.out.println(result + "km/l");
 		} catch (ArithmeticException e) {
 			System.err.println("Non è possibile dividere per 0");
+		} finally {
+			sc.close();
 		}
 	}
 
